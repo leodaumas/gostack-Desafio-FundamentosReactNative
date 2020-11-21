@@ -55,7 +55,7 @@ const CartProvider: React.FC = ({ children }) => {
 
     await AsyncStorage.setItem(
       '@GoMarketplace:products',
-      JSON.stringfy(products),
+      JSON.stringify(products),
     );
   },
   [products],
